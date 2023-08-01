@@ -27,3 +27,6 @@ Route::post('exercicio/tres',
 Route::post('exercicio/quatro', 
 [ExercicioQuatroController::class, 'verificarNumero']);
 
+Route::post('exercicio/cinco', 
+[ExercicioCincoController::class, 'divisivel']);
+

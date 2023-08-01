@@ -24,4 +24,6 @@ Route::post('exercicio/dois',
 Route::post('exercicio/tres', 
 [ExercicioTresController::class, 'aritimetica']);
 
+Route::post('exercicio/quatro', 
+[ExercicioQuatroController::class, 'verificarNumero']);
 

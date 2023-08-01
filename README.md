@@ -15,10 +15,15 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 
 ## Como utilizar este repositório
 
-Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
- git clone https://github.com/seu_usuario/repositorio.git
-Acesse o diretório do projeto:
+1. Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
+```
+ https://github.com/emillyluzia/exercicios-api.git
+ exercicios-api.git
+```
+2. Acesse o diretório do projeto:
+```
 cd exercicios-api-json-php-laravel
+```
 
 ## Licença
 

@@ -6,9 +6,10 @@ use Illuminate\Http\Request;
 
 class ExercicioCincoController extends Controller
 {
-    public function divisivel(Request $request){
+    public function divisivel(Request $request)
+    {
 
-        if($request->primeiraEntrada % 4 == 0){
+        if ($request->primeiraEntrada % 4 == 0) {
             return json_encode([
                 'resultado' => 'divisivel por 4'
             ]);
@@ -16,9 +17,6 @@ class ExercicioCincoController extends Controller
             return json_encode([
                 'resultado' => 'não é divisivel por 4'
             ]);
-    
-
-
-    }
+        }
     }
 }
